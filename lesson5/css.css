@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    font-family: "Orbitron", sans-serif;
+    height: 10vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav {
+    width: 60%;
+}
+nav ul {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav ul a {
+    text-decoration: none;
+    color: gray;
+    transition: 0.5s;
+    font-size: 19px;
+}
+nav ul a:hover {
+    color: black;
+    transition: 1s;
+}
+header div {
+    text-align: center;
+}
+section{
+    font-family: "Orbitron", sans-serif;
+    height: 90vh;
+    background-image: url("forest.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    margin-top: 20vh;
+}
+section p {
+    font-size: 20px;
+}
+section h1 {
+    font-size: 100px;
+    letter-spacing: 40px;
+    margin: 10px 0;
+}
+section button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: 1s;
+}
+section button:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+footer {
+    font-family: "Orbitron", sans-serif;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+footer div {
+    width: 60%;
+}
+footer div ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+footer div ul a {
+    text-decoration: none;
+    color: gray;
+    font-size: 15px;
+    transition: 1s;
+}
+footer div ul a:hover {
+    color: black;
+    transition: 1s;
+}
+footer address p {
+    color: grey;
+    transition: 1s;
+}
+footer address p:hover{
+    color:black;
+    transition: 1s;
+}

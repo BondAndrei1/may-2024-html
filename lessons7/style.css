@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    height: 100vh;
+    background-image: url("img/back.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-main {
+    width: 1058.4px;
+    height: 392.8px;
+    flex-shrink: 0;
+    background: #FAF9F7;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+}
+.top-main div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 44px;
+    font-family: "KoHo", sans-serif;
+}
+.top-main div h2{
+    color: #000;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top-main div p {
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.top-main div button {
+    width: 409px;
+    height: 76px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    font-family: "KoHo", sans-serif;
+    font-size: 30px;
+}
+.middle{
+    width: 1512px;
+    height: 1018px;
+    flex-shrink: 0;
+    background-image: url("img/back2.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+iframe{
+    width: 949px;
+    height: 533px;
+    background:lightgray 50% / cover no-repeat;
+}
+.nature{
+    width: 949px;
+    height: 183px;
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 110px;
+}
+.bottom{
+    width: 1512px;
+    height: 1018px;
+    flex-shrink: 0;
+    background-image: url("img/back2.png");
+    background-size: cover;
+}
+.main{
+    display: flex;
+    gap: 45px;
+    margin: 0 30px;
+}
+.block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 453.6px;
+    height: 700px;
+    background: rgba(83, 83, 83, 0.40);
+    margin: 157px 0;
+}
+.mountain{
+    width: 408.6px;
+    height: 214px;
+    display: block;
+    margin-top: 22px;
+}
+.last{
+    color: #000;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.een{
+    width: 108.889px;
+    height: 25.27px;
+    margin-top: 32px;
+    margin-bottom: 60px;
+}
+.twee{
+    width: 410px;
+    height: 46px;
+    margin-bottom: 70px;
+}
+.drie{
+    width: 65px;
+    height: 46px;
+    margin-bottom: 25px;
+}
+.vier{
+    width: 409px;
+    height: 76px;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    color: #6B6666;
+    font-family: "KoHo", sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 90px;
+}

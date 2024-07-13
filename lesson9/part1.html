@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework9</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        main{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: #2a8788;
+        }
+        .box{
+            height: 400px;
+            width: 500px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            background-color: white;
+            border-radius: 7px;
+            overflow: hidden;
+        }
+        .top{
+            height: 15vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #e0eef1;
+        }
+        p{
+            font-size: 40px;
+        }
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .first{
+            height: 35px;
+            width: 350px;
+            display: block;
+            margin-top: 20px;
+        }
+        #email{
+            margin-bottom: 15px;
+        }
+        .bottom{
+            display: flex;
+            justify-content: center;
+            gap: 127px;
+            margin-top: 35px;
+        }
+        button{
+            height: 25px;
+            width: 90px;
+            background-color: #cbecec;
+            border-radius: 7px;
+            border: 1px solid gray;
+            color: #535151;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <div class="top"><p>Вхід в особистий кабінет</p></div>
+            <form>
+                <label for="email"></label>
+                <input class="first" type="email" name="email" id="email" placeholder="Логін або email">
+                <label for="password"></label>
+                <input class="first" type="password" name="password" id="password" placeholder="Пароль">
+            </form>
+            <div class="bottom">
+                <form>
+                    <label>
+                        Запам'ятати мене <input type="checkbox" name="remember">
+                    </label>
+                </form>
+                <button>Вхід</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

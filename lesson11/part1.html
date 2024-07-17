@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>homework11</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+        }
+        img{
+            height: 200px;
+            width: 200px;
+            animation: spin 5s linear infinite;
+        }
+        .preload{
+            height: 40px;
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #8D8484;
+            gap: 15px;
+        }
+        .mini{
+            height: 30px;
+            width: 20px;
+            background-color: blue;
+            opacity: 0;
+        }
+        .one{
+            animation: disappear 3s linear infinite;
+            animation-delay: 0s;
+        }
+        .two{
+            animation: disappear 3s linear infinite;
+            animation-delay:  0.3s;
+        }
+        .three{
+            animation: disappear 3s linear infinite;
+            animation-delay: 0.6s;
+        }
+        .four{
+            animation: disappear 3s linear infinite;
+            animation-delay: 0.9s;
+        }
+        .five{
+            animation: disappear 3s linear infinite;
+            animation-delay: 1.2s;
+        }
+        .six{
+            animation: disappear 3s linear infinite;
+            animation-delay: 1.5s;
+        }
+        .seven{
+            animation: disappear 3s linear infinite;
+            animation-delay: 1.8s;
+        }
+        .eight{
+            animation: disappear 3s linear infinite;
+            animation-delay: 2.1s;
+        }
+        .nine{
+            animation: disappear 3s linear infinite;
+            animation-delay: 2.4s;
+        }
+        .ten{
+            animation: disappear 3s linear infinite;
+            animation-delay: 2.7s;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+        @keyframes disappear {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+            0%, 100% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <img src="loadingcircles_102612%20(1).png" alt="spin">
+    <div class="preload">
+        <div class="mini one"></div>
+        <div class="mini two"></div>
+        <div class="mini three"></div>
+        <div class="mini four"></div>
+        <div class="mini five"></div>
+        <div class="mini six"></div>
+        <div class="mini seven"></div>
+        <div class="mini eight"></div>
+        <div class="mini nine"></div>
+        <div class="mini ten"></div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework12</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        thead{
+            font-size: x-large;
+            font-weight: bold;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            height: 40px;
+        }
+        tbody>tr:nth-last-child(even){
+            background-color: #dce9f1;
+        }
+        tbody>tr:nth-last-child(even):hover{
+            background-color: #b5e6e6;
+        }
+        tbody>tr:nth-last-child(odd):hover{
+            background-color: #e4dfdf;
+        }
+        .description{
+            width: 300px;
+            color: white;
+            text-transform: uppercase;
+            padding-left: 10px;
+        }
+        .description2{
+            width: 200px;
+            color: white;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+        <tr>
+            <td style="text-align: center" colspan="4">Football Records of All Times</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr style="background-color: #5ba67e">
+            <td class="description">Record</td>
+            <td class="description2">Holder</td>
+            <td class="description2">Country</td>
+            <td class="description">Details</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most Goals in a Calendar Year</td>
+            <td>Lionel Messi</td>
+            <td>Argentina</td>
+            <td>91 goals (2012)</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most World Cup Wins</td>
+            <td>Brazil</td>
+            <td>Brazil</td>
+            <td>5 titles (1958, 1962, 1970, 1994, 2002)</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most Goals in a World Cup</td>
+            <td>Marta</td>
+            <td>Brazil</td>
+            <td>17 goals (2003-2019)</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most Appearances in World Cup</td>
+            <td>Lothar Matthäus</td>
+            <td>Germany</td>
+            <td>25 matches (1982-1998)</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most Goals in a Single World Cup</td>
+            <td>Just Fontaine</td>
+            <td>France</td>
+            <td>13 goals (1958)</td>
+        </tr>
+        <tr>
+            <td style="padding-left: 10px">Most Consecutive International Goals</td>
+            <td>Abby Wambach</td>
+            <td>USA</td>
+            <td>184 goals (2001-2015)</td>
+        </tr>
+        </tbody>
+
+    </table>
+</body>
+</html>
